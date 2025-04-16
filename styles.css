@@ -1,0 +1,78 @@
+body {
+    background-color: #f8f9fa;
+}
+
+/* Hero Section */
+.hero {
+    height: 80vh;
+    background: linear-gradient(rgba(0, 123, 255, 0.7), rgba(0, 123, 255, 0.7)), 
+                url('https://source.unsplash.com/1600x900/?technology,education') no-repeat center center/cover;
+}
+
+/* Hero Title - Hover Effect */
+.hero h1 {
+    font-weight: bold;
+    display: inline-block;
+}
+
+.hero h1 span {
+    display: inline-block; 
+    transition: transform 0.3s ease;
+}
+
+.hero h1 span:hover {
+    transform: scale(1.2);
+}
+
+/* Navigation Bar */
+.navbar {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons - Hover Effect */
+.btn {
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+/* Login Cards */
+.card {
+    border: none;
+    background: white;
+}
+
+/* Forms */
+.form-control, .form-select {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+}
+
+/* Primary Button */
+.btn-primary {
+    background-color: #007BFF;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #f8f9fa;
+    color: #6c757d;
+    font-size: 14px;
+}
+
+/* Hero Title - Hover Effect */
+.hero h1 span {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.hero h1 span:hover {
+    transform: scale(1.02); /* Slight increase in size */
+}
